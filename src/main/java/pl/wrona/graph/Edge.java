@@ -18,6 +18,6 @@ public final class Edge {
     }
 
     public Edge revert() {
-        return new Edge(v2, v1);
+        return new Edge(v2, v1, weight);
     }
 }
